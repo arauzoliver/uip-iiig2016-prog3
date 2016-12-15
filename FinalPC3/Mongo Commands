@@ -1,0 +1,29 @@
+Elegir base de datos:
+-  use(basededatos)
+
+-Soltar DB:
+-  db.dropDatabase()
+
+Insrtar collecciones:
+-  db.(colleccion).insert()   ***tambien puede insertar unidades***
+
+Mostrar collecciones:
+-  show collections
+
+Buscar Collecciones:
+-  db.(colleccion).find()
+
+Ver collecciones en pretty:
+-  db.(colleccion).find().pretty()
+
+Ver una colleccion:
+-  db.(colleccion).findOne()
+
+Borrar datos:
+-  db.(colleccion).remove(
+(id)
+)
+
+borrar toda la colleccion:
+-  db.(colleccion).drop()
+
