@@ -1,4 +1,3 @@
-
 if __name__ == '__main__':
     asking = True
 
@@ -12,12 +11,11 @@ if __name__ == '__main__':
             print("Salir")
             asking = False
             break
-        if response.endswith("?") :
+        if response.endswith("?"):
             print("Ofi")
-        elif response >= 'A' and response <= 'Z':
+        elif response >= 'A' and response <= 'Z'or response >= 'a' and response <= 'z':
             print("Chillea")
-        elif response == "" :
+        elif response == "":
             print("mmm")
         else:
             print("Me da igual")
-
